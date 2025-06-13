@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Dentro dessa aula introdutória <i>superinteressante</i> sobre a <strong>história dos computadores</strong>. Aprendemos que tudo começou bem antes da internet e dos PCs que a gente conhece hoje.Vimos que os primeiros dispositivos de cálculo foram bem simples, como o <strong>ábaco</strong> (usado a milhares de anos).</p>
+    <p>Depois, estudamos a evolução para máquinas mais complexas, como a <strong>Máquina Analítica</strong> de <strong>Charles Babbage</strong> no século XIX, que é considerado o "<i>avô do computador moderno</i>. Também falamos sobre <strong>Alan Turing</strong>, que criou conceitos fundamentais para a computação, principalmente durante a <u><i>Segunda Guerra Mundial</i></u>.</p>
+    <p>Na década de 1940, surgiram os primeiros <strong>computadores eletrônicos</strong>, como o <i>ENIAC</i>. Eles eram <strong>enormes</strong> e usavam <i>válvulas</i>. Com o tempo, vieram os <strong>transitores</strong>, os <strong>circuitos integrados</strong> e depois os <strong>microprocessadores</strong>, que deixaram os computadores <i>menores, mais rápidos e mais acessíveis</i>.</p>
+    <p>A gente também discutiu como os computadores evoluíram dos <i>mainframes</i> até os <strong>desktops e notebooks</strong>, e como hoje temos <strong>smartphones</strong> com mais poder de processamento do que muitos computadores antigos.</p>
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Em termos simples, o <i>client</i> é o lado do usuário, ou seja, tudo que é executado no dispositivo de quem está acessando um site, como navegador (browser), interface gráfica, e ações como clicar e preencher formulários.</p>
+    <p>O conteúdo que aparece na tela, como <i>HTML, CSS e JavaScript</i>, normalmente roda no client. Isso significa que a <strong>experiência visual e interativa</strong> de um site depende bastante dessa parte. Também vimos que o client envia <strong>requisições</strong> para o server quando precisa de dados.</p>
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>O <strong>server</strong> (ou servidor) é o <i>lado responsável por responder</i> às requisições feitas pelo client. Ele armazena os dados, arquivos e códigos que fazem os sites funcionarem. Quando acessamos uma página, o client faz um pedido, e o server devolve a resposta, como um arquivo HTML ou informações do banco de dados.</p>
+    <p>O server pode ser configurado com linguagens como <strong> PHP, Node.js, ou Python</strong>, e é onde rodam os sistemas que tratam os dados do usuário, fazem cálculos e gerenciam conteúdos.</p>
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>A <strong>estrutura básica de um HTML</strong> é como o esqueleto de qualquer página web. Tudo começa com a declaração <i><u>!DOCTYPE html</u></i>, que serve para o navegador entender que estamos usando HTML.</p>
+    <p>Depois disso, usamos a tag <i><u>"html"</u></i> para abrir o documento. Dentro dela, temos duas partes principais: o <i><u>head</u></i> e o <i><u>body</u></i>.</p>
+    <ul>
+        <li>No <i><u>head</u></i>, ficam as informações que não aparecem diretamente na tela, como o <i>título da página</i>, os metadados e os <i>links para arquivos externos</i>, como o CSS</li>
+        <li>No <i><u>body</u></i>, colocamos todo o conteúdo visível do site: textos, imagens, botões, links, etc.</li>
+    </ul>
+
+    <h2 id="listas-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>As <strong>listas ordenadas</strong> são aquelas que seguem uma <i>ordem numérica</i> ou com letras. Usamos a tag <i><u>ol</u></i> (de <i>ordered list</i>) e cada item vai dentro de uma tag <i><u>li</u></i>. Isso é útil quando a ordem dos itens importa, como em <i>receitas ou passo a passo</i>.</p>
+    <p>Já as <strong>listas não ordenadas</strong> são usadas quando a ordem não importa. Usamos a tag <i><u>ul</u></i> (de <i>unordered list</i>) e os itens também vão dentro da tag <i><u>li</u></i>. A lista aparece com <i>marcadores (bolinhas).</i></p>
+
+    <h2 id="referencias">Links de referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <ul>
+        <li><a href="#">https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/</a></li>
+        <li><a href="#">https://www.ibm.com/docs/pt-br/cics-ts/6.x?topic=interfaces-clientserver-model</a></li>
+        <li><a href="#">https://www.dio.me/articles/estrutura-basica-do-html</a></li>
+        <li><a href="#">http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm</a></li>
+    </ul>
+
+</body>
+</html>
